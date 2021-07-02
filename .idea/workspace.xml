@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -28,7 +28,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PropertyManagement" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/img" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -75,6 +75,10 @@
       <updated>1624036534775</updated>
       <workItem from="1624036951901" duration="8681000" />
       <workItem from="1624093368515" duration="696000" />
+      <workItem from="1624299118904" duration="1035000" />
+      <workItem from="1624352159314" duration="1378000" />
+      <workItem from="1624522484421" duration="1837000" />
+      <workItem from="1625244702375" duration="4499000" />
     </task>
     <servers />
   </component>
@@ -86,17 +90,21 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2472" y="198" key="#Inspections/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1624044258160" />
-    <state x="2660" y="295" key="FileChooserDialogImpl" timestamp="1624094073665">
+    <state x="2660" y="295" key="FileChooserDialogImpl" timestamp="1624524369217">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2660" y="295" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1624094073665" />
+    <state x="2660" y="295" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1624524369217" />
     <state x="2390" y="319" width="998" height="708" key="SettingsEditor" timestamp="1624044206408">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2390" y="319" width="998" height="708" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1624044206408" />
-    <state x="2576" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1624094002035">
+    <state x="2576" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1624352326976">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2576" y="364" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1624094002027" />
+    <state x="2576" y="364" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1624352326976" />
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1625245556137">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625245556137" />
   </component>
 </project>
