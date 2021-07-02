@@ -33,10 +33,10 @@ class WhyUsSection(models.Model):
     heading_3 = models.CharField(max_length=100, null=True, blank=True)
     description_3 = models.TextField(max_length=500, null=True, blank=True)
 
-    clients = models.IntegerField()
-    projects = models.IntegerField()
-    hours_of_support = models.IntegerField()
-    hard_workers = models.IntegerField()
+    clients = models.IntegerField(null=True, blank=True)
+    projects = models.IntegerField(null=True, blank=True)
+    hours_of_support = models.IntegerField(null=True, blank=True)
+    hard_workers = models.IntegerField(null=True, blank=True)
 
     class Meta:
         verbose_name = "Why Us Section"
@@ -47,6 +47,7 @@ class WhyUsSection(models.Model):
 
 
 class ServicesSection(models.Model):
+    svg_icon = models.CharField(max_length=3000, null=True, blank=True)
     heading = models.CharField(max_length=100, null=True, blank=True)
     description = models.TextField(max_length=500, null=True, blank=True)
 
@@ -63,6 +64,7 @@ class PortfolioSection(models.Model):
     type = models.CharField(max_length=100, null=True, blank=True)
     image = models.ImageField(upload_to="images/portfolio/", null=True, blank=True)
     url = models.URLField(null=True, blank=True)
+    budget = models.IntegerField(null=True, blank=True)
 
     class Meta:
         verbose_name = "Portfolio Section"

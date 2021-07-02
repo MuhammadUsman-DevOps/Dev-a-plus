@@ -22,7 +22,8 @@ from DevAPlus import views, settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index_view, name="Index-View")
+    path('', views.index_view, name="Index-View"),
+    path('email/', views.contact_via_email, name="email"),
 ]
 urlpatterns += staticfiles_urlpatterns()
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

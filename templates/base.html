@@ -63,15 +63,16 @@
 
           <div class="col-lg-6 col-md-6 footer-info">
             <h3><img src="{% static 'img/logo-light.png' %}" alt="logo" height="130"></h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <p style="font-size: 18px">A one stop shop for all your<br>
+            business technology needs.</p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#services">Services</a></li>
               <li><a href="#">Terms of service</a></li>
               <li><a href="#">Privacy policy</a></li>
             </ul>
@@ -80,19 +81,19 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              {{ company_section.street }} <br>
+              {{ company_section.city }}<br>
+              {{ company_section.country }} <br>
+              <strong>Phone:</strong> {{ company_section.phone_number }}<br>
+              <strong>Email:</strong> {{ company_section.email_address }}<br>
             </p>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="github"><i class="fa fa-github"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="{{ company_section.twitter }}" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="{{ company_section.facebook }}" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="{{ company_section.instagram }}" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="{{ company_section.github }}" target="_blank" class="github"><i class="fa fa-github"></i></a>
+              <a href="{{ company_section.linkedIn }}" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
 
           </div>
